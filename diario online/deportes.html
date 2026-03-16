@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<title>El Diario Digital</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+margin:0;
+font-family:'Roboto', sans-serif;
+background:#f4f4f4;
+}
+
+/* TITULO DEL DIARIO */
+
+header{
+background:black;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+header h1{
+font-family:'Playfair Display', serif;
+font-size:48px;
+margin:0;
+}
+
+/* MENU */
+
+nav{
+background:#333;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-size:18px;
+}
+
+/* CONTENEDOR */
+
+.container{
+width:85%;
+margin:auto;
+margin-top:30px;
+}
+
+/* NOTICIA PRINCIPAL */
+
+.principal{
+background:white;
+padding:20px;
+margin-bottom:30px;
+border-radius:10px;
+}
+
+.principal img{
+width:100%;
+height:350px;
+object-fit:cover;
+border-radius:8px;
+}
+
+.principal h2{
+font-family:'Playfair Display', serif;
+color:#b00000;
+font-size:36px;
+}
+
+.etiqueta{
+color:red;
+font-weight:bold;
+font-size:14px;
+}
+
+/* GRID DE NOTICIAS */
+
+.noticias{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px;
+}
+
+.noticia{
+background:white;
+padding:15px;
+border-radius:8px;
+transition:0.3s;
+}
+.noticia:hover{
+transform:translateY(-8px);
+box-shadow:0px 10px 20px rgba(0,0,0,0.2);
+}
+
+.noticia img{
+width:100%;
+height:auto;
+border-radius:5px;
+}
+
+.noticia h3{
+color:#003366;
+font-family:'Playfair Display', serif;
+}
+
+.noticia p{
+color:#333;
+}
+
+a{
+text-decoration:none;
+color:inherit;
+}
+
+/* FOOTER */
+
+footer{
+background:black;
+color:white;
+text-align:center;
+padding:10px;
+margin-top:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>El Diario Digital: Deportes</h1>
+</header>
+
+<nav>
+<a href="index.html">Inicio</a>
+<a href="politica.html">Política</a>
+<a href="deportes.html">Deportes</a>
+</nav>
+
+<div class="container">
+
+<!-- NOTICIA PRINCIPAL -->
+
+<div class="principal">
+
+<span class="etiqueta">NOTICIA PRINCIPAL</span>
+
+<a href="https://tn.com.ar/deportes/futbol/2026/03/16/murio-marcelo-araujo-el-relator-que-marco-una-epoca-con-sus-transmisiones-del-futbol-argentino/">
+
+<img src="marcelo.avif">
+
+<h3>Murió Marcelo Araujo, el relator que marcó una época con sus transmisiones del fútbol argentino</h3>
+
+</a>
+
+<p>Junto a Enrique Macaya Márquez fueron la dupla futbolera que dominó la década de los 90. Tuvo una forma única de describir los partidos que lo hicieron muy popular.</p>
+
+</div>
+
+
+<!-- OTRAS NOTICIAS -->
+
+<div class="noticias">
+
+
+<div class="noticia">
+
+<a href="https://tn.com.ar/deportes/formula-1/2026/03/16/el-mensaje-de-williams-para-franco-colapinto-despues-del-gran-premio-de-china-de-la-f1/">
+
+<img src="james-vowles-lidero-a-franco-colapinto-durante-su-paso-por-williams-foto-x-jvf1-EAARN7LGGZEBJIURO3CHPJSXWA.jpg">
+
+<h3>Franco Colapinto recibió un cariñoso mensaje de su exequipo luego de su buena actuación en el GP de China en la F1</h3>
+
+</a>
+
+<p>El exequipo del piloto argentino le dejó un cálido comentario en las redes sociales tras haber logrado su primer punto con Alpine el fin de semana.</p>
+
+</div>
+
+
+<div class="noticia">
+
+<a href="https://tn.com.ar/deportes/futbol/2026/03/16/juan-roman-riquelme-tuvo-una-charla-privada-con-el-plantel-de-boca-tras-el-empate-con-union-en-santa-fe/">
+
+<img src="juan-roman-riquelme-presidente-de-boca-foto-fotobaires-JX6IO33HARGWTPLTQP5MW3FOIU.avif">
+
+<h3>Juan Román Riquelme tuvo una charla privada con el plantel de Boca luego del empate con Unión</h3>
+
+</a>
+
+<p>El presidente del Xeneize recurrió a una acción típica en su gestión a raíz del último resultado que obtuvo el equipo de Claudio Úbeda contra el Tatengue.</p>
+
+</div>
+
+
+<div class="noticia">
+
+<a href="https://tn.com.ar/deportes/futbol/2026/03/16/el-anuncio-que-hizo-la-seleccion-de-espana-luego-de-la-cancelacion-de-la-finalissima-ante-argentina/">
+
+<img src="esp.avif">
+
+<h3>El anuncio que hizo la Selección de España luego de la cancelación de la Finalissima ante Argentina</h3>
+
+</a>
+
+<p>El conjunto europeo busca ultimar detalles de su preparación para el Mundial 2026.</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+<footer>
+
+<p>© 2026 El Diario Digital</p>
+
+</footer>
+
+</body>
+</html>
